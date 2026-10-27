@@ -67,4 +67,9 @@ final class Ibidun_Farming_Content {
 	 }
 }
 
+register_activation_hook(__FILE__, function () {
+	 Ibidun_Farming_Content::register_content_types();
+	 flush_rewrite_rules();
+});
+
 Ibidun_Farming_Content::init();
