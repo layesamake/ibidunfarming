@@ -25,3 +25,7 @@ export async function getContent(type: WordPressContentType = 'posts', limit = 6
 }
 
 export const getPosts = (limit = 6) => getContent('posts', limit);
+
+export function stripHtml(value = '') {
+  return value.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+}
