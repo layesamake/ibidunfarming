@@ -5,7 +5,9 @@ import { getContent, stripHtml, type WordPressContentType } from '../lib/wp';
 const { locale, page } = Astro.props as { locale: Locale; page: PageKey };
 const copy = copies[locale];
 const contentType: Partial<Record<PageKey, WordPressContentType>> = { solutions: 'produits', training: 'formations', projects: 'realisations', news: 'posts' };
-const cmsItems = contentType[page] ? await getContent(contentType[page], 6) : [];
+const cmsItems = contentType[page]
+  ? (await getContent(contentType[page], 6)).filter((item) => stripHtml(item.title.rendered).toLowerCase() !== 'hello world!')
+  : [];
 const section = copy.sections[page];
 const whatsapp = `https://wa.me/${import.meta.env.WHATSAPP_CI ?? '2250720282028'}?text=${encodeURIComponent(locale === 'fr' ? 'Bonjour Ibidun Farming, je souhaite obtenir des informations.' : 'Hello Ibidun Farming, I would like more information.')}`;
 ---
