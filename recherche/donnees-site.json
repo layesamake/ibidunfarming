@@ -1,0 +1,72 @@
+{
+  "project": "Ibidun Farming",
+  "collectionDate": "2026-10-27",
+  "trustPolicy": {
+    "officialSources": [
+      "https://www.facebook.com/people/Ibidun-Farming/61576238057884/",
+      "https://www.youtube.com/@Ibidunfarming"
+    ],
+    "legacySite": "https://ibidunfarming.com/",
+    "legacySiteStatus": "non fiable selon le propriétaire; ancien site signalé comme piraté avec injections SQL",
+    "rule": "Ne publier que les informations recoupées ou explicitement validées; ne pas migrer le code, les extensions ou la base de données de l'ancien site."
+  },
+  "identity": {
+    "name": "IBIDUN FARMING",
+    "slogan": "La passion au cœur de la vision",
+    "mainPositioning": "Solutions, formation et accompagnement pour l'agriculture et l'élevage en Afrique, avec un axe fort sur la cuniculture",
+    "facebookCategory": "Épicerie",
+    "language": "fr"
+  },
+  "officialMetricsObserved": {
+    "facebookFollowers": 459,
+    "youtubeSubscribers": "38.6k",
+    "youtubeVideos": 237,
+    "youtubeViews": 2832277,
+    "asOf": "2026-10-27"
+  },
+  "offers": [
+    {"name":"Formation et masterclass en cuniculture","status":"recoupé","sourceIds":["FB03","YT02","LOCAL04"]},
+    {"name":"Génétique cunicole: PS40, Hyla, Optima / Optima 2.0","status":"recoupé comme sujets et gammes présentés; disponibilité à confirmer","sourceIds":["FB07","YT00","YT01"]},
+    {"name":"Cages et matériel d'élevage: IBIDUN, KIBIMBA","status":"recoupé comme présentation de produits; catalogue et prix à confirmer","sourceIds":["FB04","YT00","LOCAL02"]},
+    {"name":"Aliments pour lapins","status":"annoncé; détails à confirmer","sourceIds":["YT01","LOCAL02"]},
+    {"name":"Installation de bâtiments et de fermes","status":"recoupé comme offre présentée; zones et devis à confirmer","sourceIds":["FB06","LOCAL02"]},
+    {"name":"Conseil et accompagnement agricole","status":"présent dans les sources; périmètre actuel à confirmer","sourceIds":["YT00","LOCAL00","LOCAL02"]},
+    {"name":"Lapins, bovins, ovins, aviculture, semences et viande de lapin","status":"ancien site uniquement ou sujets de reportage; validation commerciale requise","sourceIds":["YT00","LOCAL02","LOCAL03"]}
+  ],
+  "training": {
+    "title": "Formation en cuniculture",
+    "duration": "2 mois",
+    "modules": ["Biosécurité","Environnement et matériel d'élevage","Alimentation","Reproduction","Prophylaxie et maladies des lapins","Cas pratiques"],
+    "historicalFormat": "100% en ligne, Google Meet indiqué sur une affiche",
+    "historicalPrice": "400000 F et 600 £ apparaissent sur l'affiche 2025; tarif actuel et devise à confirmer",
+    "currentSession": "non confirmée",
+    "capacity": "maximum annoncé de 15 personnes dans YT02",
+    "missingBeforePublication": ["dates","tarif actuel","paiement","conditions","prérequis","certification","intervenants"]
+  },
+  "contacts": [
+    {"label":"Côte d'Ivoire recommandé","value":"+225 07 20 28 20 28","status":"correction écrite par @Ibidunfarming sous YT01; joignabilité à tester","sourceIds":["YT01-C"]},
+    {"label":"Côte d'Ivoire historique","value":"+225 07 09 27 33 49","status":"Facebook 2025; conflit avec le contact corrigé","sourceIds":["FB00","FB01","FB03"]},
+    {"label":"Bénin historique","value":"+229 96 38 35 54","status":"description YouTube; usage actuel à confirmer","sourceIds":["YT00"]},
+    {"label":"Bénin ancien site","value":"+229 58 63 63 63 / +229 96 96 87 16","status":"non fiable sans revalidation","sourceIds":["LOCAL03"]}
+  ],
+  "contactMissing": ["email professionnel confirmé","adresses physiques","horaires","contacts par pays","lien WhatsApp testé","responsable de réception des formulaires"],
+  "historyToValidate": ["fondation en 2014","fondateur et titre actuel d'Aziz Senan AGOSSOU","jalons Optima 2021, cage IBIDUN 2022, KIBIMBA 2024","pays et bureaux actifs","nouvelle direction Côte d'Ivoire et orthographe du nom"],
+  "legacyPartnersToValidate": ["HYPHARM","TERRENA","CHABEAUTI","Groupe René Toy"],
+  "recommendedSiteMap": ["Accueil","L'entreprise","Solutions","Formation","Réalisations et ressources","Contact"],
+  "sources": {
+    "FB00":"https://www.facebook.com/people/Ibidun-Farming/61576238057884/",
+    "FB01":"https://www.facebook.com/people/Ibidun-Farming/61576238057884/?sk=about",
+    "FB03":"https://www.facebook.com/photo/?fbid=122118936770874601&set=a.122118936806874601",
+    "FB04":"https://www.facebook.com/reel/1725163861495948/",
+    "FB06":"https://www.facebook.com/photo/?fbid=122142102134874601",
+    "FB07":"https://www.facebook.com/photo/?fbid=122144472398874601",
+    "YT00":"https://www.youtube.com/@Ibidunfarming",
+    "YT01":"https://www.youtube.com/watch?v=PpVSh0Uih38",
+    "YT01-C":"https://www.youtube.com/watch?v=PpVSh0Uih38&lc=Ugz7xFFIsXCDectYnV14AaABAg.AV0Nstn89KbAV1E2-rQhO-",
+    "YT02":"https://www.youtube.com/watch?v=XxOnp5--kG0",
+    "LOCAL00":"https://ibidunfarming.com/",
+    "LOCAL02":"https://ibidunfarming.com/services/",
+    "LOCAL03":"https://ibidunfarming.com/contact/",
+    "LOCAL04":"https://ibidunfarming.com/formation-masterclass/"
+  }
+}

@@ -1,0 +1,7 @@
+---
+import SitePage from '../components/SitePage.astro';
+import { pageKeys } from '../lib/content';
+export function getStaticPaths() { return pageKeys.map((page) => ({ params: { page: page === 'about' ? 'a-propos' : page }, props: { page, locale: 'fr' } })); }
+const { page, locale } = Astro.props;
+---
+<SitePage page={page} locale={locale} />
